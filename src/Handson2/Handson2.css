@@ -1,0 +1,48 @@
+
+.parent{
+    text-align: center;
+}
+label{
+    font-size: 40px;
+}
+input{
+    margin: 10px;
+    padding: 20px;
+    /* border: none; */
+    border-radius: 50px;
+    background-color: aqua;
+
+}
+button{
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.derror span {
+    color: red;
+}
+.parentChild{
+    margin: 75px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    height: auto;
+    border: 5px solid black;
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    background-color: palevioletred;
+    border: 2px solid purple;
+    margin: 2px;
+    border-radius: 25px;
+}
